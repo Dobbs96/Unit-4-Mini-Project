@@ -11,3 +11,7 @@
 // When a player selects "Play again" another word will generate and game will run again
 // SECONARY FUNCTIONS ================================================================
 // STORAGE ===========================================================================
+
+var timerText = document.getElementById("seconds");
+
+console.log(timerText);
