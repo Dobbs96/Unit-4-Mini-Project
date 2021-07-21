@@ -14,4 +14,15 @@
 
 var timerText = document.getElementById("seconds");
 
-console.log(timerText);
+var counter = 60;
+
+timerText.textContent = counter;
+
+var counterInterval = setInterval(function () {
+  counter--;
+  timerText.textContent = counter;
+  if (counter === 0) {
+    clearInterval(counterInterval);
+    console.log("TIMES UP");
+  }
+}, 1000);
