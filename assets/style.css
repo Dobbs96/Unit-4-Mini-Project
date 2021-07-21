@@ -1,0 +1,52 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  border: red solid 10px;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+header {
+  background-color: rgb(153, 166, 212);
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+#start {
+  background-color: gold;
+  border-radius: 8px;
+  color: black;
+  border: black solid 5px;
+  cursor: pointer;
+  max-width: 260px;
+  text-align: center;
+  float: center;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+}
+
+#game {
+  border: white solid 10px;
+  background-color: gold;
+  color: black;
+}
+
+.scorearea {
+  background-color: gold;
+  border: white solid 10px;
+  color: black;
+}
+
+#timearea {
+  background-color: rgb(153, 166, 212);
+  border: white solid 5px;
+  color: black;
+}
