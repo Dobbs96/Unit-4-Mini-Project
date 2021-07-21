@@ -8,19 +8,22 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <header>Word Guess Game</header>
-    <button id="start">Start</button>
+    <header>
+      <h1>Word Guess Game</h1>
+      <button id="start">Start</button>
+    </header>
     <main class="container">
-      <div>Random word to be guessed will appear here ..</div>
-      <div>
-        <h2>Wins:</h2>
-        <h2>Losses:</h2>
+      <div id="game">Random word to be guessed will appear here ..</div>
+      <div class="scorearea">
+        <h2>Wins: <span id="wins"></span></h2>
+        <h2>Losses: <span id="losses"></span></h2>
         <button id="resetScore">Reset Score</button>
         <div>
           <p>Timer will appear here</p>
-          <p>seconds remaining</p>
+          <p><span id="seconds"></span> seconds remaining</p>
         </div>
       </div>
     </main>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
